@@ -2,7 +2,8 @@ import unittest
 from argparse import Namespace
 from io import BytesIO, TextIOWrapper
 
-from parse import MarkdownLineData, MarkdownListType, get_section_name, indent_size, is_md_list, read_args
+from parse import (MarkdownLineData, MarkdownListType, get_section_name,
+                   indent_size, is_md_list, read_args)
 
 
 class FlagParserTestCase(unittest.TestCase):
